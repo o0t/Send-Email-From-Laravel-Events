@@ -21,9 +21,5 @@
 ```
 - Create system POST [ Form - model - migrations ] 
 - ```bash
-	  	1 - composer require laravel/ui --dev
-		2 - npm install
-		3 - npm run dev
-		4 - php artisan ui:auth
-		5 - php artisan migrate
+php artisan make:event PostCreated
 ```
