@@ -20,6 +20,8 @@
 		5 - php artisan migrate
 ```
 - Create system POST [ Form - model - migrations ] 
-- ```bash
-php artisan make:event PostCreated
+
+- Create event 
+```bash
+	php artisan make:event PostCreated
 ```
