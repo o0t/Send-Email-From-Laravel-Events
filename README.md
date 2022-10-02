@@ -26,4 +26,5 @@
 	php artisan make:event PostCreated
 ```
 - Page Controller CreatePost
-![App Screenshot](https://user-images.githubusercontent.com/94997828/193459252-96de8821-6d55-429c-ae99-3af69bb2da26.png)
+
+![image](https://user-images.githubusercontent.com/94997828/193459316-fbbd59f8-0d0c-4176-8364-babbb374058b.png)
