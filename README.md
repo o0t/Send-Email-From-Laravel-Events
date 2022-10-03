@@ -6,7 +6,20 @@
 - POST Published 
 - User Subscribed 
 
----------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------
+
+Listener :
+
+[ 
+  Listener => "listens for events that occur in your application" 
+]
+
+-> POST Published (event)
+   -> notify all users (listener)
+   -> notify admin about the post (listener)
+   
+--------------------------------------------------------------------------------------------
 
 # Start 
 
@@ -30,3 +43,7 @@
 ![image](https://user-images.githubusercontent.com/94997828/193459316-fbbd59f8-0d0c-4176-8364-babbb374058b.png)
 
 - Create listener 
+
+```bash
+	php artisan make:listener NotifyUser --event=PostCreated
+```
