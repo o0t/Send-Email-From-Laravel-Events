@@ -48,6 +48,8 @@ Listener :
 	php artisan make:listener NotifyUser --event=PostCreated
 ```
 
+
 - Providers -> EventServiceProvider.php
+
 
 ![image](https://user-images.githubusercontent.com/94997828/193642469-7ca89589-c8b3-4746-81af-26c5f151fba6.png)
