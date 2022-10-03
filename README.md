@@ -74,7 +74,7 @@ Listener :
 
 
 ### Sing in For Emails
-- [[Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)](https://mailtrap.io/)
+- (https://mailtrap.io/)
 
 
 
