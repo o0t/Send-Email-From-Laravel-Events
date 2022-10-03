@@ -60,4 +60,17 @@ Listener :
 ![image](https://user-images.githubusercontent.com/94997828/193642804-22f5f770-5060-4010-b428-e4df8b408267.png)
 
 
-- 
+###  Listeners -> NotifyUser.php
+
+![image](https://user-images.githubusercontent.com/94997828/193643389-9f1ee9c0-777a-44d7-bde1-28ed55609b73.png)
+
+### Create UserMail
+
+```bash
+	php artisan make:mail UserMail
+```
+
+![image](https://user-images.githubusercontent.com/94997828/193643620-a3fdcf66-31d7-437e-8a50-5eef3638711a.png)
+
+
+
