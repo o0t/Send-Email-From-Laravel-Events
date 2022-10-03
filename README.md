@@ -76,7 +76,74 @@ Listener :
 ### Sing in For Emails
 - (https://mailtrap.io/)
 
+### .env
+```bash
+	MAIL_MAILER=test
+	MAIL_HOST=test
+	MAIL_PORT=test
+	MAIL_USERNAME=test
+	MAIL_PASSWORD=test
+	MAIL_ENCRYPTION=tls
+	MAIL_FROM_ADDRESS=test@test.com
+```
+
+### Save .env
+
+```bash
+	 php artisan config:cache
+```
+
+### Mail -> UserMail.php  And Create Page Mail in view 
+
+![image](https://user-images.githubusercontent.com/94997828/193644537-46688ff5-ca87-4d0b-9853-fc3be34a2260.png)
 
 
+### in page you created in view Folder UserMail.blade.php
+#### This is in page and in mail massage 
+```bash
+		<br><h1>Mail User </h1>
+		<br><b>Post title : {{$post['title']}}</b>
+		<br><b>username : {{$post['username']}}</b> 
+```
 
+# Event is Done .. 
+
+------------------------------------------------------------------------------------------------
+
+
+# Start Listener
+
+```bash
+	php artisan queue:table
+```
+
+### in .env 
+
+```bash
+	QUEUE_CONNECTION=database 
+```
+
+### Save And Uplode Table 
+
+```bash
+	 php artisan config:cache
+	 php artisan migrate
+```
+
+### Mail -> UserMail.php
+
+![image](https://user-images.githubusercontent.com/94997828/193646080-2a81d280-9408-4ded-a3cc-bef2cc5e2140.png)
+
+
+---------------------------------------------------------------------------------
+
+# Start Send Code this 
+
+```bash
+	php artisan queue:listen
+```
+
+-------------------------------------------------------------------------------------
+
+# Good luck , and run this 🧠
 
